@@ -7,7 +7,7 @@ build-backend = "poetry.core.masonry.api"
 [project.optional-dependencies]
 dev = [
    "pytest",
-   "pytest-cov"   
+   "pytest-cov", 
 ]
 
 # Project Metadata
