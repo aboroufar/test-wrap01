@@ -37,7 +37,7 @@ version = "0.1.0"
 description = ""
 authors = ["Amir Boroufar <amir@sky.com>"]
 readme = "README.md"
-package-mode = false
+package-mode = true
 
 # Project Public & Private Dependencies
 [tool.poetry.dependencies]
