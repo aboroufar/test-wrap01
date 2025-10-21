@@ -6,19 +6,9 @@ build-backend = "poetry.core.masonry.api"
 
 [project.optional-dependencies]
 dev = [
-    "build",  # build is not only used in publishing (below), but also in the template's test suite
-    "bump-my-version",
-    "ruff",
-    "tox",
-    "myst_parser",
-    
+   "pytest",
+   "pytest-cov"   
 ]
-publishing = [
-    "build",
-    "twine",
-    "wheel",
-]
-
 
 # Project Metadata
 [tool.poetry]

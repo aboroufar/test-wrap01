@@ -29,7 +29,7 @@ jobs:
           python --version
       - name: Upgrade pip and install dependencies
         run: |
-          pip install pytest pytest-cov
+          python -m pip install .[dev]
       - name: Run unit tests
         run: |
           python -m pytest -v
